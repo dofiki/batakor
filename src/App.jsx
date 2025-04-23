@@ -1,7 +1,7 @@
 import { useState } from "react";
-import NavBar from "./components/navbar";
+import NavBar from "./components/NavBar";
 import Tools from "./components/Tools";
-import CanvasMap from "./components/canvasmap";
+import CanvasMap from "./components/CanvasMap";
 import EditFunction from "./components/EditFunction";
 
 function App() {
