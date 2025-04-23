@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #547792;
+}
+
+/*mind map body*/
+.mindMapBody{
+    display: flex;
+}
+
+
+/*navBar*/
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 2rem 0rem 2rem;
+    background-color: #213448;
+    height: 3.5rem;
+}
+
+.logo{
+    cursor: pointer;
+    color: #ECEFCA;
+}
+
+#loginBtn{
+    outline: none;
+    border: none;
+    color: #ECEFCA;
+    background-color: rgb(0, 13, 96);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    outline: 1px solid white;
+}
+
+#loginBtn:hover{
+    background-color: rgb(0, 79, 0);
+}
+
+/*tools*/
+
+.tools{
+    display: flex;
+    flex-direction: column;
+    width: 5rem;
+}
+
+.toolBtns{
+    background-color: #213448;
+    outline: 1px dashed white;
+    border: none;
+    height: 4rem;
+    cursor: pointer;
+}
+
+.toolBtns:hover{
+    background-color: #192838;
+}
+
+.active{
+    background-color: #091016;
+    outline: 1px dashed white;
+    border: none;
+    height: 4rem;
+}
+
+/*edit functions*/
+
+.editFunction{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  
+}
+
+.editFunctionTop{
+    display: flex;
+    gap: 0.3rem;
+}
+
+.editFunction button{
+    width: 5rem;
+    height: 2rem;
+    background-color: #213448;
+    border: none;
+    color: white;
+    outline: 1px solid white;
+}   
+
+.editFunction button:hover{
+    background-color: #314e6c;
+}  
+
+.editFunctionMiddle button{
+    width: 100%;
+}
+
+.editFunctionDown{
+    display: flex;
+}
+
+/*mind map body*/
+
+.mindMapBody{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
