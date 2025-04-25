@@ -111,3 +111,12 @@ body{
     justify-content: space-around;
     padding-top: 2rem;
 }
+
+/* text input*/
+
+.textInput{
+    outline: none;
+    border-radius: none;
+    font-size: "16px";
+    padding: "4px"; 
+}
